@@ -90,12 +90,12 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
                   src={profileImage}
                   height="32px"
                   width="32px"
-                  borderRadiux="50%"
+                  borderRadius="50%"
                   sx={{ objectFit: "cover"}}
               />
               <Box textAlign="left">
                   <Typography
-                    frontWeight="bold"
+                    frontweight="bold"
                     fontSize="0.8rem"
                     sx={{ color: theme.palette.secondary[100] }}
                   >
@@ -116,7 +116,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
               anchorEl={anchorEl}
               open={isOpen}
               onClose={handleClose}
-              anchorOrigin={{ vertical: "button", horizontal: "center" }}
+              anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
             >
               <MenuItem onClick={handleClose}>Log Out</MenuItem>
             </Menu>
