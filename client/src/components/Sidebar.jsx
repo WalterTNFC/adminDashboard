@@ -132,7 +132,7 @@ const Sidebar = ({
             <Box m="1.5rem 2rem 2rem 3rem">
               <FlexBetween coloe={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
-                  <Typography variant="h4" frontWeight="bold">
+                  <Typography variant="h4" frontweight="bold">
                     Intera Database
                   </Typography>
                 </Box>
@@ -205,12 +205,12 @@ const Sidebar = ({
                   src={profileImage}
                   height="40px"
                   width="40px"
-                  borderRadiux="50%"
+                  borderRadius="50%"
                   sx={{ objectFit: "cover"}}
                 />
                 <Box textAlign="left">
                   <Typography
-                    frontWeight="bold"
+                    frontweight="bold"
                     fontSize="0.9rem"
                     sx={{ color: theme.palette.secondary[100] }}
                   >
